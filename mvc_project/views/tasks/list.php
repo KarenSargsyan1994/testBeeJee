@@ -56,7 +56,7 @@ if (isset($message) && !empty($message)) { ?>
         $('#tasks_table').DataTable({
             "pageLength": 3,
             "columnDefs": [
-                { "orderable": false, "targets": 5 }
+//                 { "orderable": false, "targets": 5 }
             ]
         });
         $('.custom-select').prepend('<option value="3">3</option>');
